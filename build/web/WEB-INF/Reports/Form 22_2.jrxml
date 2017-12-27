@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 22_2" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" >
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab Data Text" hAlign="Center"/>
+	<subDataset name="New Dataset 1" >
+		<queryString language="SQL">
+			<![CDATA[select * from form_22_2]]>
+		</queryString>
+		<field name="land" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="add" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="no" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="details" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<group name="land">
+			<groupExpression><![CDATA[$F{land}]]></groupExpression>
+		</group>
+		<group name="add">
+			<groupExpression><![CDATA[$F{add}]]></groupExpression>
+		</group>
+		<group name="no">
+			<groupExpression><![CDATA[$F{no}]]></groupExpression>
+		</group>
+		<group name="details">
+			<groupExpression><![CDATA[$F{details}]]></groupExpression>
+		</group>
+	</subDataset>
+	<subDataset name="Table Dataset 1" />
+	<subDataset name="dataset1" />
+	<queryString language="SQL">
+		<![CDATA[select * from form_22_2]]>
+	</queryString>
+	<field name="land" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="add" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="no" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="details" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="land">
+		<groupExpression><![CDATA[$F{land}]]></groupExpression>
+	</group>
+	<group name="add">
+		<groupExpression><![CDATA[$F{add}]]></groupExpression>
+	</group>
+	<group name="no">
+		<groupExpression><![CDATA[$F{no}]]></groupExpression>
+	</group>
+	<group name="details">
+		<groupExpression><![CDATA[$F{details}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="7" y="5" width="548" height="209" />
+				<textElement>
+					<font size="12"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[              10. Landmark of the address
+              11. Address of last residence
+              12. Contact no. of father/mother/family member
+        13. Whether the child is differently abled: Yes/ No
+                     (i) Hearing Impairment
+                    (ii) Speech Impairment
+                    (iii) Physically disabled
+                    (iv) Mentally disabled
+                    (v) Others (please specify)
+14. Family Details:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="218" y="14" width="100" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="220" y="35" width="100" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="310" y="57" width="100" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="0" y="220" width="555" height="240" />
+			</rectangle>
+			<line>
+				<reportElement x="0" y="389" width="555" height="1" />
+			</line>
+			<line>
+				<reportElement x="38" y="224" width="1" height="240"/>
+			</line>
+			<line>
+				<reportElement x="111" y="224" width="1" height="240" />
+			</line>
+			<line>
+				<reportElement x="155" y="224" width="1" height="240" />
+			</line>
+			<line>
+				<reportElement x="205" y="224" width="1" height="240" />
+			</line>
+			<line>
+				<reportElement x="266" y="224" width="1" height="240" />
+			</line>
+			<line>
+				<reportElement x="338" y="224" width="1" height="240" />
+			</line>
+			<line>
+				<reportElement x="388" y="224" width="1" height="240" />
+			</line>
+			<line>
+				<reportElement x="434" y="224" width="1" height="240" />
+			</line>
+			<line>
+				<reportElement x="486" y="224" width="1" height="240" />
+			</line>
+			<staticText>
+				<reportElement x="6" y="233" width="28" height="31" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[S.N.
+ (1)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="233" width="86" height="49" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  Name and
+Relationship
+         (2)
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="118" y="233" width="33" height="66" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Age
+ (3)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="162" y="235" width="28" height="47" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Sex
+  (4)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="233" width="81" height="32"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[     Education
+           (5)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="267" y="235" width="70" height="31" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Occupation
+       (6)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="342" y="235" width="47" height="33" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Income
+   (7)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="392" y="235" width="40" height="67" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Health
+status
+   (8)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="440" y="235" width="47" height="77" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[History
+   of
+Mental
+Illness
+  (9)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="491" y="235" width="62" height="36" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Addictions
+    (10)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="6" y="464" width="251" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[15. Relationship among the family members:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="62" y="487" width="470" height="258" />
+			</rectangle>
+			<line>
+				<reportElement x="297" y="490" width="1" height="258" />
+			</line>
+			<line>
+				<reportElement x="62" y="526" width="470" height="1" />
+			</line>
+			<line>
+				<reportElement x="62" y="564" width="470" height="1"/>
+			</line>
+			<line>
+				<reportElement x="62" y="599" width="470" height="1" />
+			</line>
+			<line>
+				<reportElement x="62" y="639" width="470" height="1" />
+			</line>
+			<line>
+				<reportElement x="62" y="676" width="470" height="1" />
+			</line>
+			<line>
+				<reportElement x="62" y="715" width="470" height="1" />
+			</line>
+			<staticText>
+				<reportElement x="96" y="499" width="109" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[i. Father & mother]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="500" width="184" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Cordial/ Non cordial/ Not known]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="536" width="100" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[ii. Father & child]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="571" width="100" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[iii. Mother & child]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="609" width="117" height="20"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[iv. Father & siblings]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="95" y="648" width="118" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[v. Mother & siblings]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="94" y="684" width="124" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[vi. Child & siblings]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="722" width="114" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[vii. Child & relative]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="536" width="184" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Cordial/ Non cordial/ Not known]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="571" width="184" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Cordial/ Non cordial/ Not known]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="609" width="184" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Cordial/ Non cordial/ Not known]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="648" width="184" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Cordial/ Non cordial/ Not known]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="684" width="184" height="20"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Cordial/ Non cordial/ Not known]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="722" width="184" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Cordial/ Non cordial/ Not known]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="748" width="666" height="54" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[16. If child is married, name, age and details of spouse and children…………………..
+
+17. History of involvement of family members in offences, if any:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="237" y="0" width="100" height="15" />
+				<textFieldExpression><![CDATA[$F{land}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="237" y="19" width="100" height="16" />
+				<textFieldExpression><![CDATA[$F{add}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="42" width="100" height="15" />
+				<textFieldExpression><![CDATA[$F{no}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="389" y="748" width="100" height="17" />
+				<textFieldExpression><![CDATA[$F{details}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

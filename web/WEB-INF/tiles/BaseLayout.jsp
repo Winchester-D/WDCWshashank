@@ -11,6 +11,12 @@
         <title><tiles:insertAttribute name="title" ignore="true" /></title>
 
         <link href="style.css" rel="stylesheet" type="text/css" />
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  
         <%--
         <link rel="stylesheet" href="JQscript/jquery.ui.all.css"/>
         
@@ -326,7 +332,8 @@
         <link rel="stylesheet" href="jq/jquery-ui.css"/>
         <script src="jq/jquery-1.8.2.js"></script>
         <script src="jq/jquery-ui.js"></script>
-        <script type="text/javascript" src="VirtualKB/vk_easy.js" ></script>   
+        <script type="text/javascript" src="VirtualKB/vk_easy.js" ></script> 
+        
         <!-- for virtual keyboard ends-->
 
 
@@ -377,7 +384,7 @@
         </script>
         <!--font resize ends-->
     </head>
-    <body class="post-body">   
+    <body class="post-body" style="background:linear-gradient(to right,#669999 0%, #ffffff 100%)">   
 
         <% response.setHeader("Cache-Control", "no-cache"); //HTTP 1.1 
             response.setHeader("Pragma", "no-cache"); //HTTP 1.0 
@@ -406,8 +413,8 @@
         </tr-->
                 </table>
             </div></div>
- 
- 
+
+
         <!--font resize ends-->
         <!--
            <input type=text name="text1" id="text1" onfocus='VirtualKeyboard.attachInput(this);currentTB=this.id;'/>
@@ -415,19 +422,20 @@
         -->
 
         <div class="wrapper">
-        <div id="header" class="container">
-                                <a href="http://www.telangana.gov.in/" title="Visit to Telangana Government Website"> <img src="images/govt.png" alt="Go to Telangana Website" style="position:absolute;left:150px;top:10px"></a>
+            <div id="header" class="container-fluid" style="background-color:#3F4359;height:158px;width:100%;margin-top: 10px">
+                         <a href="http://www.telangana.gov.in/" title="Visit to Telangana Government Website"> <img src="images/govt.png" alt="Go to Telangana Website" style="position:absolute;left:130px;top:50px"></a>
             <!--<img  alt="Source Not Available" style="position:absolute;left:550px;top:9px">-->
-            <h1>Women Development and Child Welfare Department <br>
+            <h1 style="font-size: 10pt;margin-left:70px;padding-top:120px;color: ghostwhite">Women Development and Child Welfare Department <br>
                 Government of Telangana </h1>
-            <p style="color:ghostwhite;font-size: 23pt;font-family: cursive; margin-top: -140px; margin-left: 10px;">Telangana State Juvenile </p>
-            <p style="color:ghostwhite;font-size: 23pt; font-family: cursive;  margin-top: -50px; margin-left: 75px;"> Justice System</p> 
-            <h2 style="color: #cbe08f;font-size: 12pt;margin-left: 78px;margin-top: -30px;">Sentience | Development | Protection </h2>
+        <p style="color:ghostwhite;font-size: 23pt; margin-top: -140px; margin-left: 470px;">Telangana State Juvenile Justice System</p>
+             
+            <h2 style="color: #BDC5ED;font-size: 12pt;margin-left: 680px;margin-top: -20px;">Chetna | Vikas | Suraksha </h2>
             </div>
+           
 
-            <div id="container-top"></div>
+           
 
-            <div id="container">
+            <div id="container" style="margin-left:7%">
 
                 <div id="left">
                     <div id="left-top"></div>
@@ -445,24 +453,18 @@
 
                     <div id="left-bottom"></div>
                 </div>
- 
-                    <div id="right">
-                    
-                          
-                        
+                <div id="right">
                     <tiles:insertAttribute name="tabs" />
                     
-          
-                    <div id="right-top"></div>
 
 
                     <!--<div id="right-centre">(commented on 4-7-2012)-->
-                    <div id="right-centre" style="overflow: ">
+                    <div id="right-centre" style="overflow:;margin-left:12px;margin-top: -6px">
 
 
-                        <!--Your content goes here START write the content in side the below paragraph-->
+                        <!--Your content goes here START write the contnt in side the below paragraph-->
                         <p>
-<!-- user id -->
+
                             <s:if test="#session.homeid != null">
                                 <s:text name="global.homeID"/>: <strong><s:property value="#session.homeid"/> </strong><br/>                          
                             </s:if>
@@ -471,13 +473,11 @@
                                 <s:text name="global.userID"/>: <strong><s:property value="#session.userid"/> </strong><br/>
                             </s:if>
 
-                                <!-- user id -->
-                                
                         <div id="bodyTile" style="z-index: 1000">
                             <tiles:insertAttribute name="body" />
                         </div>
 
- 
+
 
                         </p>
                         <!--Your content goes here START -->
@@ -486,7 +486,7 @@
 
 
                     </div>
-                    <div id="right-bottom"></div>
+                  
                 </div>
                 <div class="clear"></div>
             </div>

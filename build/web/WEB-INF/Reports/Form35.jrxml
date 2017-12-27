@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 35_1" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" >
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from form_35_3]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="name">
+		<groupExpression><![CDATA[$F{name}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="125" splitType="Stretch">
+			<image>
+				<reportElement x="440" y="-11" width="100" height="50" />
+				<imageExpression><![CDATA["C:\\Users\\VenkatadriReddy\\Desktop\\barcode.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="251" y="-11" width="63" height="61" />
+				<imageExpression><![CDATA["C:\\Users\\VenkatadriReddy\\Desktop\\Telangan State Official Logo Final.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="243" y="51" width="92" height="36" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[    FORM 35 
+ [Rule 23(18)]]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="88" y="87" width="409" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[MONTHLY INSPECTION OF FOSTER FAMILIES/GROUP FOSTER CARE ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="105" width="110" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[(Fill as applicable)]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="662" splitType="Stretch">
+			<staticText>
+				<reportElement x="29" y="3" width="100" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Date of Visit: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="25" width="555" height="249" />
+				<textElement>
+					<font size="12"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[a) Name :
+b) Date of Birth & Age :
+c) Gender
+d) Date of Placement
+    1.        Details of Foster Parents 
+               a) Name of Foster Parents 
+               b) Address 
+               c) Contact details 
+                    i) Landline 
+                   ii) Mobile: 
+d) Aadhaar Card Number:
+e) Photograph of Parents
+]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement x="408" y="50" width="132" height="101" />
+			</rectangle>
+			<staticText>
+				<reportElement x="440" y="78" width="70" height="39" />
+				<textElement>
+					<font size="12"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[(Affix Recent
+Photo)]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement x="98" y="276" width="132" height="101" />
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="308" y="276" width="132" height="101" />
+			</rectangle>
+			<staticText>
+				<reportElement x="129" y="320" width="70" height="39" />
+				<textElement>
+					<font size="12"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[(Affix Recent
+Photo)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="320" width="70" height="39" />
+				<textElement>
+					<font size="12"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[(Affix Recent
+Photo)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="380" width="199" height="20" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3. Interaction with the Foster Child]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="400" width="555" height="262" />
+			</rectangle>
+			<line>
+				<reportElement x="60" y="400" width="1" height="260" />
+			</line>
+			<line>
+				<reportElement x="386" y="398" width="1" height="262" />
+			</line>
+			<staticText>
+				<reportElement x="65" y="400" width="340" height="191" />
+				<textElement>
+					<font size="11"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Child’s experience being part of the family (
+with reference to whether the child is
+properly cared for – physical,  emotional and 
+health) describe
+               i) Health Indicators 
+                      a) Present Health Status 
+                      b) Any record of Illness 
+                      c) Any other treatment that the child 
+                          is undergoing 
+              ii) Emotional ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="591" width="555" height="1" />
+			</line>
+			<staticText>
+				<reportElement x="440" y="489" width="100" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Maladjusted]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="427" y="461" width="127" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[In process of adjusting]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="438" y="415" width="100" height="41" />
+				<textElement>
+					<font size="12"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Happy and welladjusted]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="392" y="489" width="30" height="20" />
+			</rectangle>
+			<rectangle>
+				<reportElement x="392" y="415" width="30" height="20" />
+			</rectangle>
+			<rectangle>
+				<reportElement x="392" y="461" width="30" height="20" />
+			</rectangle>
+			<staticText>
+				<reportElement x="64" y="592" width="297" height="70" />
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[How is the child performing in his studies?
+             (i) check in relation with the grades/marks 
+                  the child achieved in previous 
+                  examinations, 
+             (ii) Foster parents have regular ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="479" y="603" width="30" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="395" y="632" width="68" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Sometimes]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="437" y="604" width="30" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="518" y="602" width="30" height="20" />
+			</rectangle>
+			<rectangle>
+				<reportElement x="481" y="631" width="30" height="20" />
+			</rectangle>
+			<staticText>
+				<reportElement x="395" y="604" width="30" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="602" width="20" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[b)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="415" width="20" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[a)]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

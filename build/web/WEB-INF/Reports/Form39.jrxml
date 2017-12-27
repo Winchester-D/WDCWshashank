@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 39" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" >
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from form_39]]>
+	</queryString>
+	<field name="on" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="the" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="from" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="years" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="date1" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="day1" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="year1" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="date2" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="day2" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="year2" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="on">
+		<groupExpression><![CDATA[$F{on}]]></groupExpression>
+	</group>
+	<group name="the">
+		<groupExpression><![CDATA[$F{the}]]></groupExpression>
+	</group>
+	<group name="from">
+		<groupExpression><![CDATA[$F{from}]]></groupExpression>
+	</group>
+	<group name="years">
+		<groupExpression><![CDATA[$F{years}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="94" splitType="Stretch">
+			<image>
+				<reportElement x="430" y="-11" width="100" height="50" />
+				<imageExpression><![CDATA["C:\\Users\\VenkatadriReddy\\Desktop\\barcode.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="241" y="-16" width="63" height="61" />
+				<imageExpression><![CDATA["C:\\Users\\VenkatadriReddy\\Desktop\\Telangan State Official Logo Final.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="24" y="45" width="503" height="49" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[                                                                   FORM 39 
+                                                                 [Rule 27(4)]
+        CERTIFICATE OF RECOGNITION OF FIT FACILITY INCLUDING GROUP FOSTER CARE ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="480" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="11" width="557" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[ After  perusal  of  the documents and on the basis   of   an  inspection   of   the   Institution   conducted ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-11" y="42" width="14" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[on]]></text>
+			</staticText>
+			<line>
+				<reportElement x="7" y="51" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="61" y="40" width="20" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[the]]></text>
+			</staticText>
+			<line>
+				<reportElement x="81" y="50" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="135" y="35" width="432" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[( Name of the Institution ) is recognized as a  Fit Facility  under  Section  51  of]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-11" y="62" width="431" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[the Juvenile Justice ( Care and Protection of Children ) Act, 2015 with effect from]]></text>
+			</staticText>
+			<line>
+				<reportElement x="417" y="75" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="467" y="62" width="100" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[for  a  period of]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-11" y="95" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="39" y="83" width="100" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[years.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="106" width="557" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[The   Facility   shall remain bound  to follow  the Juvenile Justice (Care  and   Protection  of  Children )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-11" y="129" width="578" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Act, 2015, the Juvenile  Justice (Care  and  Protection of Children )  Rules, 2016  and  regulations  framed ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-11" y="154" width="288" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[by  the  appropriate  Government  from  time  to  time. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="182" width="557" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[The   Facility    shall    remain    bound  to  comply  with  the  orders passed   by   the  Juvenile  Justice]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-11" y="205" width="331" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Board or the Child Welfare Committee from time to time.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="247" width="57" height="20"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Dated this]]></text>
+			</staticText>
+			<line>
+				<reportElement x="56" y="260" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="106" y="247" width="33" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[day of]]></text>
+			</staticText>
+			<line>
+				<reportElement x="139" y="261" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="189" y="247" width="20" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[20]]></text>
+			</staticText>
+			<line>
+				<reportElement x="206" y="259" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="456" y="283" width="111" height="19" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[           (Signature)
+                      ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="189" y="352" width="20" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[20]]></text>
+			</staticText>
+			<line>
+				<reportElement x="139" y="366" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="106" y="352" width="33" height="20"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[day of]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="352" width="57" height="20" />
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Dated this]]></text>
+			</staticText>
+			<line>
+				<reportElement x="206" y="364" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="56" y="365" width="50" height="1" />
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="21" y="36" width="30" height="20" />
+				<textFieldExpression><![CDATA[$F{on}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="81" y="35" width="34" height="20" />
+				<textFieldExpression><![CDATA[$F{the}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="420" y="61" width="50" height="20" />
+				<textFieldExpression><![CDATA[$F{from}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="59" y="247" width="53" height="20" />
+				<textFieldExpression><![CDATA[$F{date1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="142" y="245" width="44" height="20" />
+				<textFieldExpression><![CDATA[$F{day1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="212" y="243" width="44" height="20" />
+				<textFieldExpression><![CDATA[$F{year1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="59" y="352" width="50" height="20" />
+				<textFieldExpression><![CDATA[$F{date2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="142" y="351" width="43" height="20" />
+				<textFieldExpression><![CDATA[$F{day2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="211" y="350" width="52" height="20" />
+				<textFieldExpression><![CDATA[$F{year2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="81" width="46" height="20" />
+				<textFieldExpression><![CDATA[$F{years}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="522" y="306" width="45" height="20" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(Seal)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="471" y="386" width="111" height="19" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[           (Signature)
+                      ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="122" y="405" width="484" height="20" />
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Chairperson, Child Welfare Committee / Principal Magistrate, Juvenile Justice Board]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="186" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="36" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
